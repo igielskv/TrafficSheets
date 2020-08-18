@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		9F16030A24EBFC5D00A9BC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F16030924EBFC5D00A9BC95 /* Assets.xcassets */; };
 		9F16030D24EBFC5D00A9BC95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F16030C24EBFC5D00A9BC95 /* Preview Assets.xcassets */; };
 		9F16031024EBFC5D00A9BC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F16030E24EBFC5D00A9BC95 /* LaunchScreen.storyboard */; };
+		9F16031824EBFCC800A9BC95 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16031724EBFCC800A9BC95 /* RedView.swift */; };
+		9F16031A24EBFE6700A9BC95 /* YellowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16031924EBFE6700A9BC95 /* YellowView.swift */; };
+		9F16031C24EC014F00A9BC95 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16031B24EC014F00A9BC95 /* GreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9F16030C24EBFC5D00A9BC95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F16030F24EBFC5D00A9BC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F16031124EBFC5D00A9BC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F16031724EBFCC800A9BC95 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		9F16031924EBFE6700A9BC95 /* YellowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowView.swift; sourceTree = "<group>"; };
+		9F16031B24EC014F00A9BC95 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				9F16030324EBFC5C00A9BC95 /* AppDelegate.swift */,
 				9F16030524EBFC5C00A9BC95 /* SceneDelegate.swift */,
 				9F16030724EBFC5C00A9BC95 /* ContentView.swift */,
+				9F16031724EBFCC800A9BC95 /* RedView.swift */,
+				9F16031924EBFE6700A9BC95 /* YellowView.swift */,
+				9F16031B24EC014F00A9BC95 /* GreenView.swift */,
 				9F16030924EBFC5D00A9BC95 /* Assets.xcassets */,
 				9F16030E24EBFC5D00A9BC95 /* LaunchScreen.storyboard */,
 				9F16031124EBFC5D00A9BC95 /* Info.plist */,
@@ -111,7 +120,7 @@
 				};
 			};
 			buildConfigurationList = 9F1602FB24EBFC5C00A9BC95 /* Build configuration list for PBXProject "TrafficSheets" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F16031C24EC014F00A9BC95 /* GreenView.swift in Sources */,
 				9F16030424EBFC5C00A9BC95 /* AppDelegate.swift in Sources */,
+				9F16031A24EBFE6700A9BC95 /* YellowView.swift in Sources */,
 				9F16030624EBFC5C00A9BC95 /* SceneDelegate.swift in Sources */,
+				9F16031824EBFCC800A9BC95 /* RedView.swift in Sources */,
 				9F16030824EBFC5C00A9BC95 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
