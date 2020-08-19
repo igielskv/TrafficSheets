@@ -10,7 +10,7 @@ import SwiftUI
 
 struct RedView: View {
     
-    @State var yellowIsPresent = false
+    @State private var yellowIsPresent = false
     
     var body: some View {
         ZStack {
@@ -20,7 +20,7 @@ struct RedView: View {
                 Text("Button")
             }
         }.sheet(isPresented: $yellowIsPresent) {
-            YellowView()
+            YellowView(yellowIsPresent: self.$yellowIsPresent)
         }
     }
 }

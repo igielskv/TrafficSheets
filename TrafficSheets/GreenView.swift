@@ -9,11 +9,18 @@
 import SwiftUI
 
 struct GreenView: View {
+    
+    @Binding var yellowIsPresent: Bool
+    @Binding var greenIsPresent: Bool
+    
     var body: some View {
         ZStack {
             Color(.systemGreen)
                 .edgesIgnoringSafeArea(.all)
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+            Button(action: {
+                self.yellowIsPresent = false
+                self.greenIsPresent = false
+            }) {
                 Text("Dismiss")
             }
         }
@@ -22,6 +29,6 @@ struct GreenView: View {
 
 struct GreenView_Previews: PreviewProvider {
     static var previews: some View {
-        GreenView()
+        GreenView(yellowIsPresent: .constant(true), greenIsPresent: .constant(true))
     }
 }
