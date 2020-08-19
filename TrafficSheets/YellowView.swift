@@ -10,27 +10,27 @@ import SwiftUI
 
 struct YellowView: View {
     
-    @State private var greenIsPresent = false
-    
-    @Binding var yellowIsPresent: Bool
+    @EnvironmentObject var sheetState: SheetState
     
     var body: some View {
         ZStack {
             Color(.systemYellow)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Button(action: { self.greenIsPresent = true }) {
+                Button(action: {
+                    self.sheetState.greenIsPresented = true
+                }) {
                     Text("Button")
                 }
             }
-        }.sheet(isPresented: $greenIsPresent) {
-            GreenView(yellowIsPresent: self.$yellowIsPresent, greenIsPresent: self.$greenIsPresent)
+        }.sheet(isPresented: $sheetState.greenIsPresented) {
+            GreenView().environmentObject(self.sheetState)
         }
     }
 }
 
 struct YellowView_Previews: PreviewProvider {
     static var previews: some View {
-        YellowView(yellowIsPresent: .constant(true))
+        YellowView().environmentObject(SheetState())
     }
 }

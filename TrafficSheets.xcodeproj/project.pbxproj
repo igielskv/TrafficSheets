@@ -16,6 +16,7 @@
 		9F16031824EBFCC800A9BC95 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16031724EBFCC800A9BC95 /* RedView.swift */; };
 		9F16031A24EBFE6700A9BC95 /* YellowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16031924EBFE6700A9BC95 /* YellowView.swift */; };
 		9F16031C24EC014F00A9BC95 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16031B24EC014F00A9BC95 /* GreenView.swift */; };
+		9F75B3CB24ECFD4500342CC1 /* SheetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F75B3CA24ECFD4500342CC1 /* SheetState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9F16031724EBFCC800A9BC95 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 		9F16031924EBFE6700A9BC95 /* YellowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowView.swift; sourceTree = "<group>"; };
 		9F16031B24EC014F00A9BC95 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		9F75B3CA24ECFD4500342CC1 /* SheetState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				9F16031724EBFCC800A9BC95 /* RedView.swift */,
 				9F16031924EBFE6700A9BC95 /* YellowView.swift */,
 				9F16031B24EC014F00A9BC95 /* GreenView.swift */,
+				9F75B3CA24ECFD4500342CC1 /* SheetState.swift */,
 				9F16030924EBFC5D00A9BC95 /* Assets.xcassets */,
 				9F16030E24EBFC5D00A9BC95 /* LaunchScreen.storyboard */,
 				9F16031124EBFC5D00A9BC95 /* Info.plist */,
@@ -161,6 +164,7 @@
 				9F16030624EBFC5C00A9BC95 /* SceneDelegate.swift in Sources */,
 				9F16031824EBFCC800A9BC95 /* RedView.swift in Sources */,
 				9F16030824EBFC5C00A9BC95 /* ContentView.swift in Sources */,
+				9F75B3CB24ECFD4500342CC1 /* SheetState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
